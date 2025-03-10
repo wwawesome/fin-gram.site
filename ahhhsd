@@ -1,0 +1,143 @@
+ <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Финансовая грамотность для школьников</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: #000;
+            padding: 20px;
+            font-size: 1.5em;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 20px 0;
+            font-size: 1em;
+            background: #ff4b2b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: #ff1c00;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .feature {
+            width: 30%;
+            min-width: 250px;
+            padding: 20px;
+            background: #222;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: left;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .topic {
+            width: 45%;
+            min-width: 300px;
+            background: #222;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .form-container {
+            margin-top: 40px;
+        }
+        input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-btn {
+            padding: 10px 20px;
+            border: none;
+            background: #ff4b2b;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .form-btn:hover {
+            background: #ff1c00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Финансовая грамотность для школьников</h2>
+    </header>
+    <div class="container">
+        <h1>Как научиться управлять деньгами?</h1>
+        <p>Изучай основы финансовой грамотности и стань экспертом в управлении личными финансами!</p>
+        <a href="#" class="btn">Начать обучение</a>
+        
+        <h2>Почему это важно?</h2>
+        <div class="features">
+            <div class="feature">📈 Навык управления деньгами</div>
+            <div class="feature">💰 Умение копить и инвестировать</div>
+            <div class="feature">🛒 Разумные траты</div>
+        </div>
+        
+        <h2>Основные темы курса</h2>
+        <div class="topics">
+            <div class="topic">
+                <h3>Бюджет и расходы</h3>
+                <p>Научись вести учет своих доходов и расходов, чтобы всегда знать, на что уходят твои деньги.</p>
+            </div>
+            <div class="topic">
+                <h3>Как откладывать деньги?</h3>
+                <p>Разберём стратегии накопления денег, чтобы у тебя всегда был запас на важные цели.</p>
+            </div>
+            <div class="topic">
+                <h3>Инвестиции</h3>
+                <p>Как заставить деньги работать на тебя? Основы инвестирования и финансовой независимости.</p>
+            </div>
+            <div class="topic">
+                <h3>Финансовые ловушки</h3>
+                <p>Как избежать долгов, не попасть в финансовые пирамиды и управлять своими кредитами.</p>
+            </div>
+        </div>
+        
+        <div class="form-container">
+            <h2>Подпишись на обновления</h2>
+            <p>Оставь email, чтобы получать полезные материалы о финансах</p>
+            <input type="email" placeholder="Введите ваш email">
+            <button class="form-btn">Подписаться</button>
+        </div>
+    </div>
+</body>
+</html>
